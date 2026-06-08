@@ -10,11 +10,11 @@
 
 > Флаг `-it` позволяет работать в интерактивном режиме, т.е. даёт возможность взаимодействовать с контейнером, что нужно для отладки, например.
 
-![exec](pics/part2/1.png)
+![exec](../../images/part2/1.png)
 
 ### Создём на локальной машине файл *nginx.conf* и настраиваем в нём по пути */status* отдачу страницы статуса сервера **nginx**
 
-![nginx.conf](pics/part2/2.png)
+![nginx.conf](../../images/part2/2.png)
 
 > - `http { ... }` — блок, обрабатывающий все настройки HTTP-серверов.
 >
@@ -28,17 +28,17 @@
 
 ### Копируем созданный файл *nginx.conf* внутрь докер-образа через команду `docker cp`
 
-![docker cp](pics/part2/3.png)
+![docker cp](../../images/part2/3.png)
 
 Как видим, файл успешно скопирован. А ранее существовавший файл *nginx.conf* перезаписан на новый.
 
 ### Перезапускаем **nginx** внутри докер-образа через команду `exec`
 
-![exec](pics/part2/4.png)
+![exec](../../images/part2/4.png)
 
 ### Проверяем, что по адресу *localhost:80/status* отдается страничка со статусом сервера **nginx**
 
-![localhost:80/status](pics/part2/5.png)
+![localhost:80/status](../../images/part2/5.png)
 
  - `Active connections: 1`: количество текущих активных соединений, установленных с сервером.
 
@@ -60,25 +60,25 @@
 
 Создаём файл *container.tar*, который содержит данные контейнера.
 
-![container.tar](pics/part2/6.png)
+![container.tar](../../images/part2/6.png)
 
 ### Остановливаем контейнер
 
-![docker stop](pics/part2/7.png)
+![docker stop](../../images/part2/7.png)
 
 ### Удаляем образ через `docker rmi [image_id|repository]`, не удаляя перед этим контейнеры
 
-![docker rmi](pics/part2/8.png)
+![docker rmi](../../images/part2/8.png)
 
 ### Удаляем остановленный контейнер
 
-![docker rm my-nginx](pics/part2/9.png)
+![docker rm my-nginx](../../images/part2/9.png)
 
 > `docker ps -a` показывает все контейнеры, которые когда-либо были созданы на системе, независимо от их состояния (запущены они или остановлены).
 
 ### Импортируем контейнер обратно через команду `import`
 
-![docker import](pics/part2/10.png)
+![docker import](../../images/part2/10.png)
 
 > - `-c 'cmd ["nginx", "-g", "daemon off;"]'`: флаг `-c` задает команду, которая будет выполнена при запуске контейнера. В данном случае:
 >   - `nginx` — команда, которая запускает веб-сервер;
@@ -90,10 +90,10 @@
 
 ### Запускаем импортированный контейнер
 
-![docker run](pics/part2/11.png)
+![docker run](../../images/part2/11.png)
 
 ### Проверяем, что по адресу *localhost:80/status* отдаётся страничка со статусом сервера **nginx**
 
-![localhost:80/status](pics/part2/12.png)
+![localhost:80/status](../../images/part2/12.png)
 
 Как и раньше, мы можем видеть страницу со статусом **nginx**, только теперь изменились некоторые цифры.

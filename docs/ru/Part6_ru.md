@@ -9,27 +9,27 @@
  1) Докер-контейнер из [Части 5](#part-5-инструмент-dockle).
  2) Докер-контейнер с **nginx**, который будет проксировать все запросы с 8080 порта на 81 порт первого контейнера.
 
-![docker-compose.yml](pics/part6/1.png)
+![docker-compose.yml](../../images/part6/1.png)
 
 Также напишем *Dockerfile* в текущей папке (*Part6*):
 
-![Dockerfile](pics/part6/2.png)
+![Dockerfile](../../images/part6/2.png)
 
 И, конечно, напишем файл *nginx.conf*:
 
-![nginx.conf](pics/part6/3.png)
+![nginx.conf](../../images/part6/3.png)
 
 ### Останавливаем все запущенные контейнеры
 
 А ещё лучше — удалим!
 
-![docker rm](pics/part6/4.png)
+![docker rm](../../images/part6/4.png)
 
 Команда `docker rm $(docker ps -a -q)` удаляет все контейнеры, как работающие, так и остановленные.
 
 ### Собираем и запускаем проект с помощью команд `docker-compose build` и `docker-compose up`
 
-![docker-compose](pics/part6/5.png)
+![docker-compose](../../images/part6/5.png)
 
 > `-d` позволяет контейнерам работать в фоновом режиме.
 >
@@ -37,7 +37,7 @@
 
 ### Проверяем, что в браузере по *localhost:80* отдается написанная нами страничка
 
-![docker-compose](pics/part6/6.png)
+![docker-compose](../../images/part6/6.png)
 
 В конце не забудем удалить все ненужные образы и контейнеры в целях экономии памяти.
 
