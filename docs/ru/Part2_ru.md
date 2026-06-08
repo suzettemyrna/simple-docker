@@ -1,6 +1,6 @@
 ## Part 2. Операции с контейнером
 
-> English version: [../eng/Part2.md](Part2.md)
+> English version: [Part2.md](Part2.md)
 
 ### 2.1. Просмотр конфигурации Nginx
 
