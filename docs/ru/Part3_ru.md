@@ -67,10 +67,6 @@ docker exec <container_id> spawn-fcgi -p 8080 hello.fcgi
 
 Файл конфигурации, используемый в этой части, сохранён в репозитории: [src/history/part3-nginx.conf](../../src/history/part3-nginx.conf)
 
-```text
-src/part3/nginx.conf
-```
-
 Скопируем конфигурацию в контейнер и перезапустим Nginx.
 
 ![nginx.conf](../../images/part3/5.png)
