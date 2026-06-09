@@ -14,7 +14,7 @@
 <h1>Hello World!</h1>
 ```
 
-Исходный код приложения доступен в репозитории: [src/final/hello.c](../../src/final/hello.c)
+> Исходный код приложения: [src/final/hello.c](../../src/final/hello.c)
 
 ---
 
@@ -65,7 +65,7 @@ docker exec <container_id> spawn-fcgi -p 8080 hello.fcgi
 * `fastcgi_pass 127.0.0.1:8080;` — передача запроса FastCGI-серверу;
 * `include fastcgi_params;` — подключение стандартных параметров FastCGI.
 
-Файл конфигурации, используемый в этой части, сохранён в репозитории: [src/history/Part3/nginx.conf](../../src/history/Part3/nginx.conf)
+> Файл конфигурации, используемый в этой части: [src/history/Part3/nginx.conf](../../src/history/Part3/nginx.conf)
 
 Скопируем конфигурацию в контейнер и перезапустим Nginx.
 
