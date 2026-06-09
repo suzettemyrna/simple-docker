@@ -23,7 +23,7 @@
 * `COPY` — копирование исходных файлов в образ;
 * `ENTRYPOINT` — команда, выполняемая при запуске контейнера.
 
-Файл образа, используемый в этой части, доступен в репозитории: [src/history/Part4/Dockerfile](../../src/history/Part4/Dockerfile)
+> Файл образа, используемый в этой части: [src/history/Part4/Dockerfile](../../src/history/Part4/Dockerfile)
 
 Для запуска приложения создадим скрипт `run.sh`.
 
@@ -31,7 +31,7 @@
 
 Скрипт выполняет компиляцию FastCGI-приложения, запускает его на порту `8080`, после чего запускает Nginx.
 
-Исходный код скрипта доступен в репозитории: [src/final/run.sh](../../src/final/run.sh)
+> Исходный код скрипта: [src/final/run.sh](../../src/final/run.sh)
 
 ---
 
@@ -86,7 +86,7 @@ curl http://localhost:80
 
 ![nginx.conf](../../images/part4/6.png)
 
-Файл конфигурации, используемый в этой части, сохранён в репозитории: [src/history/Part4/nginx.conf](../../src/history/Part4/nginx.conf)
+> Файл конфигурации, используемый в этой части: [src/history/Part4/nginx.conf](../../src/history/Part4/nginx.conf)
 
 После изменения конфигурации перезапустим контейнер:
 
