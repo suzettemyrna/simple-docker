@@ -66,10 +66,10 @@ docker exec <container_id|container_name> nginx -s reload
 Откроем в браузере адрес:
 
 ```text
-http://localhost:80/status
+http://localhost/status
 ```
 
-![localhost:80/status](../../images/part2/5.png)
+![localhost/status](../../images/part2/5.png)
 
 Страница отображает статистику работы Nginx.
 
@@ -188,10 +188,10 @@ docker ps
 Откроем страницу:
 
 ```text
-http://localhost:80/status
+http://localhost/status
 ```
 
-![localhost:80/status](../../images/part2/12.png)
+![localhost/status](../../images/part2/12.png)
 
 Страница статуса по-прежнему доступна после экспорта, удаления и повторного создания образа и контейнера.
 
