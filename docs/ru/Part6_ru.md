@@ -1,4 +1,4 @@
-## Part 6. Базовый **Docker Compose**
+## Part 6. Базовый Docker Compose
 
 > English version: [../eng/Part6.md](Part6.md)
 
@@ -40,5 +40,13 @@
 ![docker-compose](../../images/part6/6.png)
 
 В конце не забудем удалить все ненужные образы и контейнеры в целях экономии памяти.
+
+---
+
+## Навигация
+
+↑ [README_ru](../../README_ru.md)
+
+← [Part 5. Dockle](Part5_ru.md)
 
 ---

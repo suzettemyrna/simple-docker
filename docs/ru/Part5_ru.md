@@ -1,4 +1,4 @@
-## Part 5. **Dockle**
+## Part 5. Dockle
 
 > English version: [../eng/Part5.md](Part5.md)
 
@@ -93,5 +93,15 @@
 ![dockle](../../images/part5/4.png)
 
 Как видим, остались только рекомендации (*INFO*), а про них ничего в задании не сказано, так что игнорируем.
+
+---
+
+## Навигация
+
+↑ [README_ru](../../README_ru.md)
+
+← [Part 4. Свой докер](Part4_ru.md)
+
+→ [Part 6. Базовый Docker Compose](Part6_ru.md)
 
 ---
