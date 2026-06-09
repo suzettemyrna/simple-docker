@@ -1,6 +1,6 @@
 services:
   hello_server:
-    build: .
+    build: ../Part5
     container_name: hello_server
     tty: true
   hello_nginx:
