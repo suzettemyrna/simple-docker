@@ -51,12 +51,12 @@ To complete the project, the following tools are required:
 
 * Docker Engine;
 * Docker Compose;
-* Linux or WSL;
+* Linux;
 * basic Linux command-line skills.
 
 The parts are intended to be completed sequentially, starting with [Part 1](docs/eng/Part1.md).
 
-## Repository Layout
+## Repository Structure
 
 ```text
 .
