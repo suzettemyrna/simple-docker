@@ -51,7 +51,7 @@
 
 * Docker Engine;
 * Docker Compose;
-* Linux или WSL;
+* Linux;
 * базовые знания Linux и работы с терминалом.
 
 Работы рекомендуется выполнять последовательно, начиная с [Part 1](docs/ru/Part1_ru.md).
