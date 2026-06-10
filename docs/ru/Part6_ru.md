@@ -21,13 +21,13 @@
 
 ![Dockerfile](../../images/part6/2.png)
 
-> Файл образа, используемый в этой части: [src/history/Part6/Dockerfile](../../src/history/Part6/Dockerfile)
+> Файл образа, использованный в этой части: [src/history/Part6/Dockerfile](../../src/history/Part6/Dockerfile)
 
 Конфигурация Nginx перенаправляет запросы на контейнер с приложением.
 
 ![nginx.conf](../../images/part6/3.png)
 
-> Файл конфигурации, используемый в этой части: [src/final/compose/nginx.conf](../../src/final/compose/nginx.conf)
+> Файл конфигурации, использованный в этой части: [src/final/compose/nginx.conf](../../src/final/compose/nginx.conf)
 
 ---
 
