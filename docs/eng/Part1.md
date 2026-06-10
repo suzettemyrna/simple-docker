@@ -206,6 +206,6 @@ The official Nginx image was downloaded, a container was created and started, co
 
 ↑ [README](../../README.md)
 
-→ [Part 2. Operations with container](Part2.md)
+→ [Part 2. Operations With Container](Part2.md)
 
 ---
