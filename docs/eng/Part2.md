@@ -209,6 +209,6 @@ The Nginx configuration inside the container was modified, and the container was
 
 ← [Part 1. Ready-made Docker Image](Part1.md)
 
-→ [Part 3. Mini web server](Part3.md)
+→ [Part 3. Mini Web Server](Part3.md)
 
 ---
