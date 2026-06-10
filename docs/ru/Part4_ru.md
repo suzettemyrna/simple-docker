@@ -23,7 +23,7 @@
 * `COPY` — копирование исходных файлов в образ;
 * `ENTRYPOINT` — команда, выполняемая при запуске контейнера.
 
-> Файл образа, используемый в этой части: [src/history/Part4/Dockerfile](../../src/history/Part4/Dockerfile)
+> Файл образа, использованный в этой части: [src/history/Part4/Dockerfile](../../src/history/Part4/Dockerfile)
 
 Для запуска приложения создадим скрипт `run.sh`.
 
